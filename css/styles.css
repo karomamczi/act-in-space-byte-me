@@ -3,9 +3,9 @@
  */
 
 /* Links */
-a,
-a:focus,
-a:hover {
+.nav-link,
+.nav-link:focus,
+.nav-link:hover {
   color: #fff;
 }
 
@@ -43,8 +43,8 @@ body {
 
 .bg-img {
   background-image: url('../img/pexels-photo-110854.jpeg');
-  background-repeat:no-repeat;
-  background-size:cover;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .cover-container {
@@ -113,3 +113,23 @@ body {
 .mastfoot {
   color: rgba(255, 255, 255, .5);
 }
+
+
+/*
+ * Map marker
+ */
+ #map-marker {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #333;
+  border-radius: 10px;
+  background-color: #931027;
+  opacity: 0.5;
+}
+
+/*
+ * Overlay
+ */
+ .overlay {
+  display: none;
+ }
