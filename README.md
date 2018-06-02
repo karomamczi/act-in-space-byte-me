@@ -1,4 +1,4 @@
-# Project Title
+# ActInSpace BYTE ME
 
 ActInSpace App from BYTE ME team (Cracow, Poland)
 
